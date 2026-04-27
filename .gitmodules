@@ -16,3 +16,6 @@
 [submodule "plugins/RecreatePCacheOnLogin"]
 	path = plugins/RecreatePCacheOnLogin
 	url = https://github.com/mapasculturais/plugin-RecreatePCacheOnLogin
+[submodule "plugins/MapasBlame"]
+	path = plugins/MapasBlame
+	url = https://github.com/mapasculturais/plugin-MapasBlame
