@@ -8,5 +8,6 @@ return [
         'Accessibility',
         'Analytics',
         'AdminLoginAsUser',
+        'RecreatePCacheOnLogin',
     ]
 ];
