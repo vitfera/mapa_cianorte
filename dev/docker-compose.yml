@@ -27,7 +27,9 @@ services:
       - ../plugins/Analytics:/var/www/src/plugins/Analytics 
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser 
       - ../plugins/RecreatePCacheOnLogin:/var/www/src/plugins/RecreatePCacheOnLogin 
-      - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame 
+      - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
+
+      - ../themes/Cianorte:/var/www/src/themes/Cianorte
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
